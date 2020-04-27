@@ -3,5 +3,31 @@ Help:
 	Help simplificado: git <verb> -h    ex: git clone -h
 
 Git:
+	git init (cria o repositório/ .git)	
 	git add [options] <file>
 	git status 
+	git commit
+	git diff (ver o que foi alterado nos modified files)
+	git diff --staged (ver o que foi alterado nos staged files)
+
+Gitignore:
+	1º Crie um file chamado .gitignore
+	2º 
+	# no .a files
+	*.a
+
+	# but do track lib.a, even though you're ignoring .a files 	above
+	!lib.a
+
+	# only ignore the TODO file in the current directory, not 	subdir/TODO
+	/TODO
+
+	# ignore all files in the build/ directory
+	build/
+
+	# ignore doc/notes.txt, but not doc/server/arch.txt
+	doc/*.txt
+
+	# ignore all .pdf files in the doc/ directory
+	doc/**/*.pdf
+
