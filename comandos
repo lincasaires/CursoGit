@@ -5,10 +5,25 @@ Help:
 Git:
 	git init (cria o repositório/ .git)	
 	git add [options] <file>
+	git add . (stages new files and modifications, without deletions)
+	git add -u (stages modifications and deletions, without new files)
 	git status 
 	git commit
+	git commit -v (adiciona ao COMMIT_EDITMSG as alterações feitas detalhadamente)
+	git commit -a (pega todos os arquivos modificados, não precisando usar git add)
 	git diff (ver o que foi alterado nos modified files)
 	git diff --staged (ver o que foi alterado nos staged files)
+	git rm <file> (remove o arquivo da máquina e da área staged)
+	git rm --cached <file> (remove apenas da área de staged, mantendo o file na maquina)
+	git rm \*<filesENDname> (\* significa all)
+	git mv <nome_atual> <nome_final> (renomeia o arquivo)
+	git log (historico de commits)
+	git log -p -2 (histórico + diff; -2 para mostrar só as duas ultimas)
+	git log --stat (historico + status)
+	git log --pretty
+		--pretty=oneline (uma linha por comit)
+		--pretty=format:"%h - %an, %ar : %s" (formato de visualização)
+	
 
 Gitignore:
 	1º Crie um file chamado .gitignore
@@ -30,4 +45,6 @@ Gitignore:
 
 	# ignore all .pdf files in the doc/ directory
 	doc/**/*.pdf
+
+
 
