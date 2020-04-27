@@ -1,0 +1,7 @@
+Help: 
+	git help <verb>   ex: git help config
+	Help simplificado: git <verb> -h    ex: git clone -h
+
+Git:
+	git add [options] <file>
+	git status 
