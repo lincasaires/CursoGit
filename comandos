@@ -22,7 +22,7 @@ Git:
 	git rm \*<filesENDname> (\* significa all)
 	git mv <nome_atual> <nome_final> (renomeia o arquivo)
 	git log (historico de commits)
-	git checkout -- <file> (dsubstitui o arquivo pela ultima versão do ultimo commit)
+	git checkout -- <file> (substitui o arquivo pela ultima versão do ultimo commit)
 	
 
 Gitlog:
