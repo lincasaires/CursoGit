@@ -18,13 +18,26 @@ Git:
 	git rm \*<filesENDname> (\* significa all)
 	git mv <nome_atual> <nome_final> (renomeia o arquivo)
 	git log (historico de commits)
+
+
+
+
+Gitlog:
+
+	git log (historico de commits)
 	git log -p -2 (histórico + diff; -2 para mostrar só as duas ultimas)
 	git log --stat (historico + status)
 	git log --pretty
-		--pretty=oneline (uma linha por comit)
+		--pretty=oneline --graph (uma linha por comit) (--graph util para ver branches)
 		--pretty=format:"%h - %an, %ar : %s" (formato de visualização)
-	
-
+	Limit Output	
+	git log --since=2.weeks
+		--since="1 year 3 days ago"
+		--since="2008-01-15"
+	git log --grep <keywords>
+	git log --author <autor>
+	git log -S<string> (encontra em qual commit a <string> foi adicionada ou removida)	
+	*Options to limit the output of git log 
 Gitignore:
 	1º Crie um file chamado .gitignore
 	2º 
