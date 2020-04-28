@@ -11,6 +11,10 @@ Git:
 	git commit
 	git commit -v (adiciona ao COMMIT_EDITMSG as alterações feitas detalhadamente)
 	git commit -a (pega todos os arquivos modificados, não precisando usar git add)
+	ALTERAR NOME E ADICIONAR ARQUIVO NO COMMIT	
+		$ git commit -m <commitMSG>
+		$ git add <file>
+		$ git commit --amend
 	git diff (ver o que foi alterado nos modified files)
 	git diff --staged (ver o que foi alterado nos staged files)
 	git rm <file> (remove o arquivo da máquina e da área staged)
@@ -18,9 +22,6 @@ Git:
 	git rm \*<filesENDname> (\* significa all)
 	git mv <nome_atual> <nome_final> (renomeia o arquivo)
 	git log (historico de commits)
-
-
-
 
 Gitlog:
 
@@ -38,6 +39,7 @@ Gitlog:
 	git log --author <autor>
 	git log -S<string> (encontra em qual commit a <string> foi adicionada ou removida)	
 	*Options to limit the output of git log 
+
 Gitignore:
 	1º Crie um file chamado .gitignore
 	2º 
