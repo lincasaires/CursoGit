@@ -5,5 +5,7 @@
 	    remote add <name> <URLs> (adiciona novo repositório remoto. <name> de sua preferência, nome curto)
 	    remote show <remote_name>
 	git fetch <remote_name> (puxa os dados desse <remote-project> que você ainda nao possui, MAS NÃO DÁ MERGE)
-	git pull <remote_name> (
+	git pull <remote_name> (puxa os dados desse <remote-project> que você ainda nao possui e dá merge)
 	git push -u <remote-origin> <remote-destino> 	
+	git checkout (trocar branches ou recuperar arquivos)
+	teste 
