@@ -17,5 +17,15 @@
 	git push <remote_name> --tags (envia as tags para o remoto, <tag_name> no lugar de --tag)
 	git config --global alias.<apelido>  <comando a ser apelidado>
 		ex: git config --global alias.logshow "log --pretty=oneline --graph"
+	git branch (mostra o branch atual)
+	    branch <nome-branch> (cria um branch)
+	    branch -d <nome-branch> (deleta branch que já foi merged)
+	    branch -D <nome-branch> (deleta branch mesmo nao tendo sido merged)
+	    branch -v (ultimo commit no branch atual)
+	    branch --merged (vê quais branchs foram merged / --no-merged para ver os que nao foram)	
+	git checkout <nome-branch> (alterna para a branch escolhida)
+	git merge <nome-branch> (funde a branch atual com a branch escolhida)
+	
+	
 
 	
