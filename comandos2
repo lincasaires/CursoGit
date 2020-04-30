@@ -1,11 +1,21 @@
-	TESTE?
+
 
 	git remote (ver quais servidores remotos eu configurei)
 	    remote -v (para ver URLs
 	    remote add <name> <URLs> (adiciona novo repositório remoto. <name> de sua preferência, nome curto)
 	    remote show <remote_name>
+	    remote rename <nome_antigo> <nome_novo>
+	    remote rm <remote_name> (remove um remoto)
 	git fetch <remote_name> (puxa os dados desse <remote-project> que você ainda nao possui, MAS NÃO DÁ MERGE)
 	git pull <remote_name> (puxa os dados desse <remote-project> que você ainda nao possui e dá merge)
 	git push -u <remote-origin> <remote-destino> 	
 	git checkout (trocar branches ou recuperar arquivos)
-	teste 
+	git tag (mostra todas as tags em ordem alfabetica)
+	git tag -l "v1.8.5*" (mostra tags somente das series v1.8.5)
+	git tag -a <nome_tag> -m <"mensagem"> ( -a cria uma "tag anotada" no commit atual)
+	    tag -d <nome_tag> (deleta tag)
+	git push <remote_name> --tags (envia as tags para o remoto, <tag_name> no lugar de --tag)
+	git config --global alias.<apelido>  <comando a ser apelidado>
+		ex: git config --global alias.logshow "log --pretty=oneline --graph"
+
+	
