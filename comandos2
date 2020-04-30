@@ -8,7 +8,8 @@
 	    remote rm <remote_name> (remove um remoto)
 	git fetch <remote_name> (puxa os dados desse <remote-project> que você ainda nao possui, MAS NÃO DÁ MERGE)
 	git pull <remote_name> (puxa os dados desse <remote-project> que você ainda nao possui e dá merge)
-	git push -u <remote-origin> <remote-destino> 	
+	git push -u <remote-origin> <remote-destino>
+	    push <remote-origin> <local-branch> 	
 	git checkout (trocar branches ou recuperar arquivos)
 	git tag (mostra todas as tags em ordem alfabetica)
 	git tag -l "v1.8.5*" (mostra tags somente das series v1.8.5)
